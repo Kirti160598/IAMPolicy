@@ -1,0 +1,60 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "codecommit:PutCommentReaction",
+                "codecommit:GetTree",
+                "codecommit:ListPullRequests",
+                "codecommit:UpdatePullRequestApprovalRuleContent",
+                "codecommit:GetBlob",
+                "codecommit:PutFile",
+                "codecommit:GetReferences",
+                "codecommit:GetPullRequestApprovalStates",
+                "codecommit:DescribeMergeConflicts",
+                "codecommit:UpdatePullRequestTitle",
+                "codecommit:GetCommentsForComparedCommit",
+                "codecommit:GetCommit",
+                "codecommit:GetComment",
+                "codecommit:GetCommitHistory",
+                "codecommit:UpdateRepositoryDescription",
+                "codecommit:GetCommitsFromMergeBase",
+                "codecommit:BatchGetCommits",
+                "codecommit:DescribePullRequestEvents",
+                "codecommit:UpdatePullRequestStatus",
+                "codecommit:CreatePullRequest",
+                "codecommit:GetPullRequest",
+                "codecommit:UpdatePullRequestApprovalState",
+                "codecommit:ListAssociatedApprovalRuleTemplatesForRepository",
+                "codecommit:ListBranches",
+                "codecommit:GetPullRequestOverrideState",
+                "codecommit:PostCommentForPullRequest",
+                "cloudwatch:GetInsightRuleReport",
+                "codecommit:UpdatePullRequestDescription",
+                "codecommit:GitPull",
+                "codecommit:BatchGetRepositories",
+                "codecommit:GetObjectIdentifier",
+                "codecommit:BatchGetPullRequests",
+                "codecommit:PostCommentReply",
+                "codecommit:GetFile",
+                "codecommit:EvaluatePullRequestApprovalRules",
+                "codecommit:MergePullRequestBySquash",
+                "codecommit:GetDifferences",
+                "codecommit:GetRepository",
+                "codecommit:UpdateRepositoryName",
+                "codecommit:GetBranch",
+                "codecommit:GetMergeConflicts",
+                "codecommit:GetMergeCommit",
+                "codecommit:MergePullRequestByFastForward",
+                "codecommit:GitPush",
+                "codecommit:GetMergeOptions"
+            ],
+            "Resource": [
+                "arn:aws:cloudwatch:*:291301254004:insight-rule/*",
+                "arn:aws:codecommit:*:291301254004:*"
+            ]
+        }
+    ]
+}
